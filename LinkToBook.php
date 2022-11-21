@@ -32,7 +32,7 @@
 
     $stid = oci_parse($connect,$sql);
 
-    $oci_exesute($stid);
+    $oci_execute($stid);
 
     echo "<table width='300' border='1' cellpadding='0' cellspacing='0'>\n";
     
