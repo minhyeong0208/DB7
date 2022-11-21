@@ -9,33 +9,48 @@
         table {
             margin: auto;
         }
+        #button_s button{
+            border: 1px rgb(0, 102, 255);
+            background-color: rgb(0, 102, 255);
+            color: white;
+            width: 100px;
+            height: 30px;
+        }
     </style>
 </head>
 <body>
     <form method = "post" action="signup_check.php">
-    <table>
-        <thead><h2 style="text-align: center;">회원 가입</h2></thead>
-        <tbody>
-            <tr></tr>
-            <td>아이디</td>
-            <td><input type="text" name="id" placeholder="아이디"></td>
-            <tr></tr>
-            <td>비밀번호</td>
-            <td><input type="password" name="password" placeholder="비밀번호"></td>
-            <tr></tr>
-            <td>비밀번호 재입력</td>
-            <td><input type="password" name="password2" placeholder="비밀번호 확인"></td>
-            <tr></tr>
-            <td>이름</td>
-            <td><input type="text" name="username" placeholder="회원 이름"></td>
-            <tr></tr>
-            <td>카테고리</td>
-            <td><input type="text" name="category" placeholder="카테고리"></td>
-            <tr></tr>
-            <td></td>
-            <td><button>회원 가입</button></td>
-        </tbody>
-    </table>
+        <center>
+            <fieldset style="width:360px">
+                <legend><h4>회원 가입</h4></legend>
+                <table>
+                    <tbody>
+                        <tr></tr>
+                        <td>아이디</td>
+                        <td><input type="text" name="id" placeholder="아이디" class="cell-right"></td>
+                        <tr></tr>
+                        <td>비밀번호</td>
+                        <td><input type="password" name="password" placeholder="비밀번호"></td>
+                        <tr></tr>
+                        <td>비밀번호 재입력</td>
+                        <td><input type="password" name="password2" placeholder="비밀번호 확인"></td>
+                        <tr></tr>
+                        <td>이름</td>
+                        <td><input type="text" name="username" placeholder="회원 이름"></td>
+                        <tr></tr>
+                        <td>카테고리</td>
+                        <td><input type="text" name="category" placeholder="카테고리"></td>
+                        <tr></tr>
+                        <td></td>
+                        <td>
+                            <div class="cell" style="float: right;" id="button_s">
+                                <button id="button">Sign Up</button>
+                            </div>
+                        </td>
+                    </tbody>
+                </table>
+            </fieldset>
+        </center>
     </form>
 </body>
 </html>
