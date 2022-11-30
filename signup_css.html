@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">                                                                                                                                                                                    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 정보</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="form-wrap">
+            <div class="button-wrap">
+                <div id="btn"></div>
+                <button type="button" class="togglebtn" onclick="login()">LOG IN</button>
+                <button type="button" class="togglebtn" onclick="register()">REGISTER</button>
+            </div>
+            <form id="login" action="" class="input-group">
+                <input type="text" name="id" placeholder="아이디" class="input-field">
+                <input type="password" name="password" placeholder="비밀번호" class="input-field">
+                <button id="button" class="submit">Login</button>
+            </form>
+            <form id="register" method = "post" action="signup_check.php" class="input-group">
+                <input type="text" name="id" placeholder="아이디" class="input-field">
+                <input type="password" name="password" placeholder="비밀번호" class="input-field">
+                <input type="password" name="password2" placeholder="비밀번호 확인" class="input-field">
+                <input type="text" name="username" placeholder="회원 이름" class="input-field">
+                <input type="text" name="category" placeholder="카테고리" class="input-field">
+                <button id="button" class="submit">Register</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+        function register(){
+            x.style.left = "-400px";   //-400 50 110
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+        function login(){
+            x.style.left = "50px"; // 50 450 0
+            y.style.left = "450px";
+            z.style.left = "0";
+        }
+    </script>
+</body>
+</html>
