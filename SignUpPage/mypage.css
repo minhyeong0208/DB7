@@ -76,3 +76,34 @@ span {
 #register {
     left: 450px;
 } 
+
+h2{
+    font-family: sans-serif;
+    padding: 20px 0 20px 20px ;
+}
+hr{
+    margin-bottom: 10px;
+}
+table {
+    width: 700px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-spacing: 1px;
+    font-family: 'Cairo', sans-serif;
+  margin: auto;
+}
+
+caption {
+    font-weight: bold;
+}
+
+table td {
+    padding: 10px;
+    background-color: #eee;
+}
+
+table th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
