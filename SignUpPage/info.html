@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원 정보 수정</title>
+    <link rel="stylesheet" href="info.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="form-wrap">
+            <h2>마이페이지</h2>
+            <div>
+                <button class="button" style="margin-left:20px" onclick="location.href='mypage.html'">추천 도서</button>
+                <button class="button" onclick="location.href='info.html'">회원 정보</button>
+            </div>
+            <hr>
+            <table align="center">
+                <tr>
+                    <td>현재 비밀번호</td>
+                    <td><input type="text" class="input-field"></td>
+                </tr>
+                <tr>
+                    <td>변경 비밀번호</td>
+                    <td><input type="text" class="input-field"></td>
+                </tr>
+                <tr>
+                    <td>변경 비밀번호 확인</td>
+                    <td><input type="text" class="input-field"></td>
+                </tr>
+                <tr>
+                    <td>현재 카테고리</td>
+                    <td>
+                        <select name="category" placeholder="카테고리" class="input-field">
+                            <option value="category">Select category</option>
+                            <option value="religion">religion</option>
+                            <option value="computer">computer</option>
+                            <option value="novel">novel</option>
+                            <option value="history">history</option>
+                            <option value="poem">poem</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>변경 카테고리</td>
+                    <td>
+                        <select name="category" placeholder="카테고리" class="input-field">
+                            <option value="category">Select category</option>
+                            <option value="religion">religion</option>
+                            <option value="computer">computer</option>
+                            <option value="novel">novel</option>
+                            <option value="history">history</option>
+                            <option value="poem">poem</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <button id="button2" class="submit">회원 탈퇴</button>
+            <button id="button2" class="submit">로그아웃</button>
+            <button id="button2" class="submit">저장</button>
+        </div>
+    </div>
+</body>
+</html>
