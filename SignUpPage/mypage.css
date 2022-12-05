@@ -52,18 +52,6 @@
     outline: none;
     background: transparent;
 }
-.logout {
-    width: 15%;
-    padding: 10px 30px;
-    cursor: pointer;
-    display: block;
-    margin: auto;
-    background: linear-gradient(to right, #ff105f, #ffad06);
-    border: 0;
-    outline: none;
-    border-radius: 30px;
-    margin-top: 10px;
-}
 span {
     color: #777;
     font-size: 12px;
@@ -76,10 +64,9 @@ span {
 #register {
     left: 450px;
 } 
-
 h2{
     font-family: sans-serif;
-    padding: 20px 0 20px 20px ;
+    padding: 20px 0 10px 20px ;
 }
 hr{
     margin-bottom: 10px;
@@ -90,20 +77,22 @@ table {
     border: 1px solid #fff;
     border-spacing: 1px;
     font-family: 'Cairo', sans-serif;
-  margin: auto;
+    margin: auto;
 }
-
-caption {
-    font-weight: bold;
-}
-
-table td {
+td {
     padding: 10px;
-    background-color: #eee;
+    background-color: #fff;
 }
-
-table th {
+th {
     background-color: #333;
     color: #fff;
     padding: 10px;
+}
+button{
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+    border-right: 0;
+    border-bottom: 0;
+    border-width: 1px;
+    background-color: #fff;
 }
